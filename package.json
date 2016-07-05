@@ -1,0 +1,27 @@
+{
+  "name": "babel-transform-tutorial",
+  "version": "0.0.1",
+  "description": "以下是我在 2016/7/4 奇舞团泛前端分享会上的[分享](http://matrix.h5jun.com/slide/show?id=120#/)的文字内容。",
+  "main": "code.js",
+  "dependencies": {
+    "babel-traverse": "^6.10.4",
+    "babylon": "^6.8.3",
+    "babel-generator": "^6.11.0",
+    "json-print": "^0.0.5",
+    "babel-types": "^6.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akira-cn/babel-transform-tutorial.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akira-cn/babel-transform-tutorial/issues"
+  },
+  "homepage": "https://github.com/akira-cn/babel-transform-tutorial#readme"
+}

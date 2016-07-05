@@ -286,7 +286,7 @@ var node = t.returnStatement(
   )
 ); 
 
-traverse(ast, myVisitor);
+path.replaceWith(node);
 ```
 
 这样就实现了将 AST 中的 if / else 替换为三目表达式的功能。
